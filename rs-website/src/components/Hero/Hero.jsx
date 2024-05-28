@@ -1,5 +1,8 @@
 import './Hero.css'
 import PropTypes from 'prop-types'
+import Arrow_icon from '../../assets/arrow_btn.png'
+import Play_icon from '../../assets/play_icon.png'
+import video_icon from '../../assets/pause_icon.png'
 
 const Hero = ({
   setPlayStatus,

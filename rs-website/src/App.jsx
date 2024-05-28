@@ -19,7 +19,7 @@ const App = () => {
         setPlayStatus={setPlayStatus}
         setHeroCount={setHeroCount}
         heroData={heroData}
-        heroCount={heroCount}
+        heroCount={heroCount[heroCount]}
         playStatus={playStatus}
       />
     </div>
