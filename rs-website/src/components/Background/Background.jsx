@@ -8,7 +8,7 @@ import image3 from '../../assets/image3.png'
 const Background = ({ heroCount, playStatus }) => {
   if (playStatus) {
     return (
-      <video autoPlay loop muted>
+      <video className='background' autoPlay loop muted>
         <source src={video1} type="video/mp4"></source>
       </video>
     )
@@ -19,7 +19,7 @@ const Background = ({ heroCount, playStatus }) => {
   } else if (heroCount === 2) {
     return <img src={image3} className="background" alt="" />
   }
-  return null
+ 
 }
 
 Background.propTypes = {
