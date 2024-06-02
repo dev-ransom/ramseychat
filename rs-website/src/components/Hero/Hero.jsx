@@ -28,9 +28,10 @@ const Hero = ({
           <li className={heroCount===1 ? 'hero-dot orange' : 'hero-dot'} onClick={() => setHeroCount(1)}></li>
           <li className={heroCount===2 ? 'hero-dot orange' : 'hero-dot'} onClick={() => setHeroCount(2)}></li>
         </ul>
-      </div>
       <div className="hero-play">
         <img onClick={() => setPlayStatus(!playStatus)} src={playStatus ? Pause_icon : Play_icon} alt="" />
+        <p>see the video</p>
+      </div>
       </div>
     </div>
   )
